@@ -229,28 +229,30 @@ body {
     line-height: 32px;
     color: #83888F;
 }
-.instructions__wrapper > hr {
-    background-color: #FDD6BA;
-    border: none;
-    width: 760px;
-    height: 1px;
-}
 .instructions__list {
+    padding: 0;
     display: flex;
     align-items: flex-start;
     gap: 95px;
+}
+.instructions__list {
+    background-image: url("../Images/instructions-line.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left top 14px;
+}
+.instructions__oval {
+    width: 31px;
+    height: 31px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
 }
 .instructions__list_items {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
-}
-.instructions__list_items {
-    background-image: url("../Images/Instructions_oval.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: left top;
 }
 .instructions__list_items span {
     font-family: 'Fraunces';
