@@ -29,3 +29,121 @@
     }
 }
 // End of Hero Section
+// Intro Section
+.intro__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    margin-bottom: 120px;
+
+    img {
+        border-radius: 8px;
+    }
+}
+.intro__wrapper h2 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 32px;
+    color: #333D4B;
+}
+.intro__wrapper p {
+    width: 540px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+// End of Intro Section
+// Info Section
+.info__container {
+    padding-top: 82px;
+    margin-bottom: 168px;
+}
+.info__wrapper {
+    height: 474px;
+    padding: 88px 85px;
+    background: #2C343E;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    
+    &_img {
+        border-radius: 8px;
+        flex-shrink: 0;
+        margin-bottom: 164px;
+    }
+}
+.info__wrapper_head h3 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 32px;
+    color: #FEFCF7;
+}
+.info__wrapper_head p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+// End of Info Section
+// Headquarters Section
+.headquarters__container {
+    margin-bottom: 168px;
+    padding-left: 85px;
+
+    .headquarters__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 75px;
+        color: #83888F;
+    }
+}
+.headquarters__list {
+    display: flex;
+    gap: 108px;
+}
+.headquarters__list_items img {
+    height: 49px;
+    margin-bottom: 45px;
+}
+.headquarters__list_items h4 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 24px;
+    color: #333D4B;
+}
+.headquarters__list_items p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+// End of Headquarters Section
+
