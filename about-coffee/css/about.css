@@ -11,6 +11,18 @@
   margin: 0 auto;
 }
 
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .header__container {
   padding: 50px 0;
   display: flex;
@@ -42,5 +54,77 @@
 
 .header__nav_list a:hover {
   color: #333D4B;
+  cursor: pointer;
+}
+
+.hero__container {
+  padding: 137px 85px;
+  margin-bottom: 168px;
+  background-image: url(../images/Hero-back-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero__container h1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 24px;
+  color: #FEFCF7;
+}
+.hero__container p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 445px;
+  color: #FEFCF7;
+}
+
+.footer__wrapper {
+  background: #2C343E;
+  padding: 54px 85px;
+  margin-bottom: 135px;
+  display: flex;
+  align-items: center;
+  gap: 103px;
+}
+
+.footer__wrapper a img {
+  display: block;
+}
+
+.footer__anchor_items {
+  display: flex;
+  gap: 33px;
+}
+
+.footer__anchor_items a {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  transition: all 0.3s ease-in;
+}
+
+.footer__anchor_items a:hover {
+  cursor: pointer;
+  color: #FEFCF7;
+}
+
+.footer__link_items {
+  margin-left: 266px;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.footer__link_items a img:hover {
   cursor: pointer;
 }/*# sourceMappingURL=about.css.map */

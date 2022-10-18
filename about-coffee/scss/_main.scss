@@ -1,0 +1,31 @@
+// Hero section
+.hero__container {
+    padding: 137px 85px;
+    margin-bottom: 168px;
+
+    background-image: url(../images/Hero-back-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 24px;
+        color: #FEFCF7;
+    }
+
+    p {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        width: 445px;
+        color: #FEFCF7;
+
+    }
+}
+// End of Hero Section
