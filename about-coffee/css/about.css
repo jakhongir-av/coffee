@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header__container {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__container a img {
+  display: block;
+}
+
+.header__nav_list {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.header__nav_list a {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  transition: all 0.3s ease-in;
+}
+
+.header__nav_list a:hover {
+  color: #333D4B;
+  cursor: pointer;
+}/*# sourceMappingURL=about.css.map */
