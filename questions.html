@@ -72,18 +72,166 @@
                 </ul>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <div>
-                    <a href="#"><span></span></a>
-                    <a href="#"><span></span></a>
-                    <a href="#"><span></span></a>
-                    <a href="#"><span></span></a>
-                    <a href="#"><span></span></a>
+        <section class="questions__section">
+            <div class="container questions__container">
+                <div class="questions__menu">
+                    <a href="#"><span>01</span>Preferences</a>
+                    <a href="#"><span>02</span>Bean Type</a>
+                    <a href="#"><span>03</span>Quantity</a>
+                    <a href="#"><span>04</span>Grind Option</a>
+                    <a href="#"><span>05</span>Deliveries</a>
                 </div>
-                <div>
-                    <form action="">
-                        
+                <div class="questions__box">
+                    <form class="questions__form" action="">
+                        <!--FIRST QUESTION-->
+                        <h3 class="coffee__form_heading">How do you drink coffee?</h3>
+                        <div class="coffee__question">
+                            <div class="coffee__question_options_wrapper">
+                                <input id="type1" type="radio" name="coffee__1">
+                                <div class="coffee__question_option">
+                                    <h3>Capsule</h3>
+                                    <p>Compatible with Nespresso systems and similar brewers</p>
+                                    <label for="type1"></label>
+                                </div>
+                            </div>
+                            <div class="coffee_question_options_wrapper">
+                                <input id="type2" type="radio" name="coffee__1">
+                                <div class="coffee__question_option">
+                                    <h3>Filter</h3>
+                                    <p>For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                                    <label for="type2"></label>
+                                </div>
+                            </div>
+                            <div class="coffee_question_options_wrapper">
+                                <input id="type3" type="radio" name="coffee__1">
+                                <div class="coffee__question_option">
+                                    <h3>Espresso</h3>
+                                    <p>Dense and finely ground beans for an intense, flavorful experience</p>
+                                    <label for="type3"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--SECOND QUESTION-->
+                        <h3 class="coffee__form_heading">What type of coffee?</h3>
+                        <div class="coffee__question">
+                            <div class="coffee__question_options_wrapper">
+                                <input id="option1" type="radio" name="coffee__2">
+                                <div class="coffee__question_option">
+                                    <h3>Single Origin</h3>
+                                    <p>Distinct, high quality coffee from a specific family-owned farm</p>
+                                    <label for="option1"></label>
+                                </div>
+                            </div>
+                            <div class="coffee_question_options_wrapper">
+                                <input id="option2" type="radio" name="coffee__2">
+                                <div class="coffee__question_option">
+                                    <h3>Decaf</h3>
+                                    <p>Just like regular coffee, except the caffeine has been removed</p>
+                                    <label for="option2"></label>
+                                </div>
+                            </div>
+                            <div class="coffee_question_options_wrapper">
+                                <input id="option3" type="radio" name="coffee__2">
+                                <div class="coffee__question_option">
+                                    <h3>Blended</h3>
+                                    <p>Combination of two or three dark roasted beans of organic coffees</p>
+                                    <label for="option3"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--THIRD QUESTION-->
+                        <h3 class="coffee__form_heading">How much would you like?</h3>
+                        <div class="coffee__question">
+                            <div class="coffee__question_options_wrapper">
+                                <input id="mass1" type="radio" name="coffee__3">
+                                <div class="coffee__question_option">
+                                    <h3>250g</h3>
+                                    <p>Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                                    <label for="mass1"></label>
+                                </div>
+                            </div>
+                            <div class="coffee_question_options_wrapper">
+                                <input id="mass2" type="radio" name="coffee__3">
+                                <div class="coffee__question_option">
+                                    <h3>500g</h3>
+                                    <p>Perfect option for a couple. Yields about 40 delectable cups.</p>
+                                    <label for="mass2"></label>
+                                </div>
+                            </div>
+                            <div class="coffee_question_options_wrapper">
+                                <input id="mass3" type="radio" name="coffee__3">
+                                <div class="coffee__question_option">
+                                    <h3>1000g</h3>
+                                    <p>Perfect for offices and events. Yields about 90 delightful cups.</p>
+                                    <label for="mass3"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FOURTH QUESTION-->
+                        <h3 class="coffee__form_heading">Want us to grind them?</h3>
+                        <div class="coffee__question">
+                            <div class="coffee__question_options_wrapper">
+                                <input id="choise1" type="radio" name="coffee__4">
+                                <div class="coffee__question_option">
+                                    <h3>Wholebean</h3>
+                                    <p>Best choice if you cherish the full sensory experience</p>
+                                    <label for="choise1"></label>
+                                </div>
+                            </div>
+                            <div class="coffee_question_options_wrapper">
+                                <input id="choise2" type="radio" name="coffee__4">
+                                <div class="coffee__question_option">
+                                    <h3>Filter</h3>
+                                    <p>For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                                    <label for="choise2"></label>
+                                </div>
+                            </div>
+                            <div class="coffee_question_options_wrapper">
+                                <input id="choise3" type="radio" name="coffee__4">
+                                <div class="coffee__question_option">
+                                    <h3>Cafetiére</h3>
+                                    <p>Course ground beans specially suited for french press coffee</p>
+                                    <label for="choise3"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIFTH QUESTION-->
+                        <h3 class="coffee__form_heading">How often should we deliver?</h3>
+                        <div class="coffee__question">
+                            <div class="coffee__question_options_wrapper">
+                                <input id="class1" type="radio" name="coffee__5">
+                                <div class="coffee__question_option">
+                                    <h3>Every week</h3>
+                                    <p>C$7.20 per shipment. Includes free first-class shipping.</p>
+                                    <label for="class1"></label>
+                                </div>
+                            </div>
+                            <div class="coffee_question_options_wrapper">
+                                <input id="class2" type="radio" name="coffee__5">
+                                <div class="coffee__question_option">
+                                    <h3>Every 2 weeks</h3>
+                                    <p>$9.60 per shipment. Includes free priority shipping.</p>
+                                    <label for="class2"></label>
+                                </div>
+                            </div>
+                            <div class="coffee_question_options_wrapper">
+                                <input id="class3" type="radio" name="coffee__5">
+                                <div class="coffee__question_option">
+                                    <h3>Every month</h3>
+                                    <p>$12.00 per shipment. Includes free priority shipping.</p>
+                                    <label for="class3"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="questions__hero">
+                            <h3>ORDER SUMMARY</h3>
+                            <p>“I drink my coffee as <span>Filter</span>, with a <span>Decaf</span> type of bean.
+                                <span>250g</span> ground ala <span>Cafetiare</span>, sent to me <span>Every
+                                    Week</span>.”</p>
+                        </div>
+                        <div class="questions__btn">
+                            <button>Create my plan?</button>
+                        </div>
                     </form>
                 </div>
             </div>
