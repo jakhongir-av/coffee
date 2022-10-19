@@ -1,3 +1,4 @@
+// Hero Section
 .hero3__container {
     padding: 134px 85px;
     margin-bottom: 155px;
@@ -26,3 +27,67 @@
     mix-blend-mode: normal;
     opacity: 0.8;
 }
+// End of Hero Section
+// Instructions Section
+.instructions2__container {
+    background: #2C343E;
+    border-radius: 10px;
+    padding: 100px 85px;
+    margin-bottom: 168px;
+}
+
+.instructions2__list {
+    display: flex;
+    gap: 95px;
+    
+    background-image: url("../Images/Questions-page-instructions-back.png");
+    background-repeat: no-repeat;
+    background-position: left top 15px;
+}
+
+.instructions2__list_items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+
+    .instructions2__oval {
+        width: 31px;
+        height: 31px;
+        background: #2C343E ;
+        border: 2px solid #0E8784;
+        border-radius: 50%;  
+        margin-bottom: 27px;
+    }
+
+    .instructions2__number {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+    }
+
+    h2 {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 2px;
+        color: #FEFCF7;
+    }
+
+    p {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        width: 285px;
+        color: #FEFCF7;
+    }
+} 
+
+// End of Instructions Section

@@ -248,7 +248,7 @@ body {
 }
 
 .instructions__wrapper > h3 {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -315,7 +315,7 @@ body {
   color: #333D4B;
 }
 
-.instruvtions__wrapper a {
+.instructions__wrapper a {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
@@ -612,4 +612,60 @@ body {
   color: #FEFCF7;
   mix-blend-mode: normal;
   opacity: 0.8;
+}
+
+.instructions2__container {
+  background: #2C343E;
+  border-radius: 10px;
+  padding: 100px 85px;
+  margin-bottom: 168px;
+}
+
+.instructions2__list {
+  display: flex;
+  gap: 95px;
+  background-image: url("../Images/Questions-page-instructions-back.png");
+  background-repeat: no-repeat;
+  background-position: left top 15px;
+}
+
+.instructions2__list_items {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+}
+.instructions2__list_items .instructions2__oval {
+  width: 31px;
+  height: 31px;
+  background: #2C343E;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+  margin-bottom: 27px;
+}
+.instructions2__list_items .instructions2__number {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+.instructions2__list_items h2 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 2px;
+  color: #FEFCF7;
+}
+.instructions2__list_items p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 285px;
+  color: #FEFCF7;
 }/*# sourceMappingURL=main.css.map */
