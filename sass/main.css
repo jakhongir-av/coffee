@@ -1,0 +1,584 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header__container {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__ontainer a img {
+  display: block;
+}
+
+.header__nav_list {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.header__nav_list a {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  transition: all 0.3s ease-in;
+}
+
+.header__nav_list a:hover {
+  color: #333D4B;
+  cursor: pointer;
+}
+
+/* Intro section */
+.intro__wrapper {
+  margin-bottom: 136px;
+  background-image: url("../Images/Intro__back_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro__wrapper {
+  padding: 117px 0 117px 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.intro__wrapper h1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  width: 493px;
+  color: #FEFCF7;
+}
+
+.intro__wrapper p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 445px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.intro__wrapper a {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 24px;
+  padding: 15px 31px;
+  color: #FEFCF7;
+  background: #66D2CF;
+  border-radius: 6px;
+}
+
+/* End of Intro section */
+/* Coffee Menu */
+.coffee-menu__list {
+  padding-top: 70px;
+  margin-bottom: 189px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.coffee-menu__list {
+  background-image: url("../Images/coffee-menu__back_img.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center top -60px;
+}
+
+.coffee-menu__list_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.coffee-menu__list_items h2 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 48px;
+  color: #333D4B;
+}
+
+.coffee-menu__list_items p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 255px;
+  text-align: center;
+  color: #333D4B;
+}
+
+/* End of Coffee Menu */
+/* Hero Menu */
+.hero__wrapper {
+  height: 577px;
+  background: #2C343E;
+  border-radius: 10px;
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.hero__wrapper > h2 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 200px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+
+.hero__wrapper > p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 540px;
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.hero__list {
+  margin-top: 54px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.hero__list_items {
+  padding: 72px 48px 48px 48px;
+  height: 382px;
+  width: 350px;
+  background: #0E8784;
+  border-radius: 8px;
+}
+
+.hero__list_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.hero__list_items h3 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 43px;
+  color: #FEFCF7;
+}
+
+.hero__list_items p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+/* End of Hero */
+/* Instructions section */
+.instructions__wrapper {
+  margin-top: 300px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 65px;
+}
+
+.instructions__wrapper > h3 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.instructions__list {
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 95px;
+}
+
+.instructions__list {
+  background-image: url("../Images/instructions-line.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left top 14px;
+}
+
+.instructions__oval {
+  width: 31px;
+  height: 31px;
+  background: #FEFCF7;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+
+.instructions__list_items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.instructions__list_items span {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+
+.instructions__list_items h3 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  width: 255px;
+  height: 73px;
+  color: #333D4B;
+}
+
+.instructions__list_items p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 285px;
+  color: #333D4B;
+}
+
+.instruvtions__wrapper a {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 16px 31px;
+  border-radius: 6px;
+  background: #66D2CF;
+  color: #FEFCF7;
+}
+
+.instructions__btn a {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  padding: 16px 31px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 6px;
+  background: #66D2CF;
+  color: #FEFCF7;
+}
+
+.instructions__btn a:hover {
+  cursor: pointer;
+}
+
+/* End of Instructions section */
+/* footer */
+.footer__wrapper {
+  background: #2C343E;
+  padding: 54px 85px;
+  margin-bottom: 135px;
+  display: flex;
+  align-items: center;
+  gap: 103px;
+}
+
+.footer__wrapper a img {
+  display: block;
+}
+
+.footer__anchor_items {
+  display: flex;
+  gap: 33px;
+}
+
+.footer__anchor_items a {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  transition: all 0.3s ease-in;
+}
+
+.footer__anchor_items a:hover {
+  cursor: pointer;
+  color: #FEFCF7;
+}
+
+.footer__link_items {
+  margin-left: 266px;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.footer__link_items a img:hover {
+  cursor: pointer;
+}
+
+/* End of footer */
+.footer__wrapper {
+  background: #2C343E;
+  padding: 54px 85px;
+  margin-bottom: 135px;
+  display: flex;
+  align-items: center;
+  gap: 103px;
+}
+
+.footer__wrapper a img {
+  display: block;
+}
+
+.footer__anchor_items {
+  display: flex;
+  gap: 33px;
+}
+
+.footer__anchor_items a {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  transition: all 0.3s ease-in;
+}
+
+.footer__anchor_items a:hover {
+  cursor: pointer;
+  color: #FEFCF7;
+}
+
+.footer__link_items {
+  margin-left: 266px;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.footer__link_items a img:hover {
+  cursor: pointer;
+}
+
+.hero2__container {
+  padding: 137px 85px;
+  margin-bottom: 168px;
+  background-image: url(../images/Hero-back-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero2__container h1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 24px;
+  color: #FEFCF7;
+}
+.hero2__container p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 445px;
+  color: #FEFCF7;
+}
+
+.intro2__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+  margin-bottom: 120px;
+}
+.intro2__container img {
+  border-radius: 8px;
+}
+
+.intro2__wrapper h2 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 32px;
+  color: #333D4B;
+}
+
+.intro2__wrapper p {
+  width: 540px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.info2__container {
+  padding-top: 82px;
+  margin-bottom: 168px;
+}
+
+.info2__wrapper {
+  height: 474px;
+  padding: 88px 85px;
+  background: #2C343E;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+}
+.info2__wrapper_img {
+  border-radius: 8px;
+  flex-shrink: 0;
+  margin-bottom: 164px;
+}
+
+.info2__wrapper_head h3 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 32px;
+  color: #FEFCF7;
+}
+
+.info2__wrapper_head p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 540px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.headquarters__container {
+  margin-bottom: 168px;
+  padding-left: 85px;
+}
+.headquarters__container .headquarters__heading {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 75px;
+  color: #83888F;
+}
+
+.headquarters__list {
+  display: flex;
+  gap: 108px;
+}
+
+.headquarters__list_items img {
+  height: 49px;
+  margin-bottom: 45px;
+}
+
+.headquarters__list_items h4 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 24px;
+  color: #333D4B;
+}
+
+.headquarters__list_items p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}/*# sourceMappingURL=main.css.map */

@@ -5,6 +5,5 @@
             "extensionName": ".css",
             "savePath": "/css"
         }
-    ],
-    "liveSassCompile.settings.autoprefix": true,
+    ]
 }

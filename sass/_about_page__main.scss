@@ -1,5 +1,5 @@
 // Hero section
-.hero__container {
+.hero2__container {
     padding: 137px 85px;
     margin-bottom: 168px;
 
@@ -30,7 +30,7 @@
 }
 // End of Hero Section
 // Intro Section
-.intro__container {
+.intro2__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@
         border-radius: 8px;
     }
 }
-.intro__wrapper h2 {
+.intro2__wrapper h2 {
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
@@ -50,7 +50,7 @@
     margin-bottom: 32px;
     color: #333D4B;
 }
-.intro__wrapper p {
+.intro2__wrapper p {
     width: 540px;
     font-family: 'Barlow';
     font-style: normal;
@@ -63,11 +63,11 @@
 }
 // End of Intro Section
 // Info Section
-.info__container {
+.info2__container {
     padding-top: 82px;
     margin-bottom: 168px;
 }
-.info__wrapper {
+.info2__wrapper {
     height: 474px;
     padding: 88px 85px;
     background: #2C343E;
@@ -84,7 +84,7 @@
         margin-bottom: 164px;
     }
 }
-.info__wrapper_head h3 {
+.info2__wrapper_head h3 {
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
@@ -93,7 +93,7 @@
     margin-bottom: 32px;
     color: #FEFCF7;
 }
-.info__wrapper_head p {
+.info2__wrapper_head p {
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
