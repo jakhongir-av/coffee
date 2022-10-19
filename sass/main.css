@@ -583,10 +583,13 @@ body {
   color: #333D4B;
 }
 
-.hero3__conatainer {
+.hero3__container {
   padding: 134px 85px;
+  margin-bottom: 155px;
   background-image: url("../Images/Questions__hero_back_img.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
 
 .hero3__container h1 {
@@ -605,6 +608,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  width: 445px;
   color: #FEFCF7;
   mix-blend-mode: normal;
   opacity: 0.8;
