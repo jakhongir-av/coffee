@@ -278,7 +278,16 @@
         border-radius: 6px;
         border: none;
         color: #FEFCF7;
-        background: #66D2CF; 
+        background: #0E8784;
+        transition: all 0.1s ease-in;
+
+        &:hover {
+            cursor: pointer;
+            background: #66D2CF;
+        }
+        &:disabled {
+            background: #E2DEDB;
+        }
     }
 
 }

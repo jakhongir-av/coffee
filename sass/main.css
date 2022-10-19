@@ -842,5 +842,13 @@ body {
   border-radius: 6px;
   border: none;
   color: #FEFCF7;
+  background: #0E8784;
+  transition: all 0.1s ease-in;
+}
+.questions__btn button:hover {
+  cursor: pointer;
   background: #66D2CF;
+}
+.questions__btn button:disabled {
+  background: #E2DEDB;
 }/*# sourceMappingURL=main.css.map */
