@@ -1,7 +1,14 @@
+// Basics 
+
 @import "basics";
-@import "main_page__header";
+
+// Header
+
+@import "header";
+
+// Main Page
+
 @import "style";
-@import "footer";
 
 // Second Page
 
@@ -10,3 +17,11 @@
 // Third Page
 
 @import "questions_page__main";
+
+// Footer
+
+@import "footer";
+
+// All Media Requies
+
+@import "media_requies";
