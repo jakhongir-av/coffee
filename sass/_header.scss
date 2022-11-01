@@ -30,4 +30,23 @@
     cursor: pointer;
 }
 // End of Navbar
-// End of Header 
+// End of Header
+// Media queries
+
+// For Tablets
+@media (min-width: 413px) and (max-width: 768px) {
+    .container {
+        max-width: 687px;
+    }
+}
+
+
+// For Mobile Phones
+@media only screen and (max-width: 412px) {
+    .container {
+        max-width: 327px;
+    }
+    .header__nav_list {
+        gap: 5px;
+    }
+}
